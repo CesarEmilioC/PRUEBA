@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Agende una asesoría estratégica con nuestro equipo. Oficinas en Monterrey y Ciudad de México." />
+<title>Contacto — Estrategia Legal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav">
+    <a href="index.html" class="brand"><span class="brand-mark">E</span><span class="brand-name">Estrategia Legal<small>Firma Corporativa · MX</small></span></a>
+    <button class="nav-toggle" aria-label="Menú"><span></span><span></span><span></span></button>
+    <ul class="nav-links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="firma.html">Firma</a></li>
+      <li><a href="servicios.html">Servicios</a></li>
+      <li><a href="sectores.html">Sectores</a></li>
+      <li><a href="equipo.html">Equipo</a></li>
+      <li><a href="insights.html">Insights</a></li>
+      <li><a href="contacto.html" class="nav-cta active">Agendar asesoría</a></li>
+    </ul>
+  </div>
+</header>
+
+<section class="sub-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Inicio</a><span>/</span><span>Contacto</span></div>
+    <span class="eyebrow">Asesoría estratégica</span>
+    <h1>Agende una reunión con un socio de la firma.</h1>
+    <p>Toda relación inicia con una conversación directa. Responderemos en un plazo máximo de 24 horas hábiles.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info" data-reveal>
+        <h3>Información de contacto</h3>
+
+        <div class="contact-block">
+          <h5>Oficina Monterrey</h5>
+          <p>Av. Lázaro Cárdenas 2400<br>Residencial San Agustín<br>San Pedro Garza García, N.L.</p>
+        </div>
+
+        <div class="contact-block">
+          <h5>Oficina Ciudad de México</h5>
+          <p>Av. Paseo de la Reforma 250<br>Juárez, Cuauhtémoc<br>Ciudad de México</p>
+        </div>
+
+        <div class="contact-block">
+          <h5>Correo</h5>
+          <p><a href="mailto:contacto@estrategialegal.mx">contacto@estrategialegal.mx</a></p>
+        </div>
+
+        <div class="contact-block">
+          <h5>Teléfono</h5>
+          <p><a href="tel:+528112345678">+52 (81) 1234 5678</a></p>
+        </div>
+
+        <div class="contact-block">
+          <h5>Horario</h5>
+          <p>Lunes a viernes · 9:00 a 19:00 hrs</p>
+        </div>
+      </div>
+
+      <div data-reveal>
+        <form id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" required />
+            </div>
+            <div class="form-group">
+              <label for="empresa">Empresa</label>
+              <input type="text" id="empresa" name="empresa" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="correo">Correo corporativo</label>
+              <input type="email" id="correo" name="correo" required />
+            </div>
+            <div class="form-group">
+              <label for="telefono">Teléfono</label>
+              <input type="tel" id="telefono" name="telefono" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="area">Área de interés</label>
+            <select id="area" name="area" required>
+              <option value="">Seleccione un área</option>
+              <option>Estrategia Fiscal Corporativa</option>
+              <option>Comercio Exterior (IMMEX, PROSEC, CIVA)</option>
+              <option>Derecho Laboral Empresarial</option>
+              <option>Auditoría y Cumplimiento</option>
+              <option>Consultoría Contable Estratégica</option>
+              <option>Asesoría general / Diagnóstico</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="mensaje">Describa brevemente su consulta</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-arrow" style="width:auto;">Enviar solicitud</button>
+          <p style="font-size:0.82rem; color:var(--gray-500); margin-top:1.25rem;">Al enviar este formulario acepta nuestro aviso de privacidad. La información compartida se trata bajo estricta confidencialidad profesional.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand"><div class="brand" style="color:#fff;"><span class="brand-mark">E</span><span class="brand-name">Estrategia Legal<small>Firma Corporativa · MX</small></span></div><p>Firma especializada en estrategia fiscal, comercio exterior y cumplimiento corporativo en México.</p></div>
+      <div class="footer-col"><h5>Firma</h5><ul><li><a href="firma.html">Enfoque</a></li><li><a href="equipo.html">Equipo</a></li><li><a href="insights.html">Insights</a></li><li><a href="contacto.html">Contacto</a></li></ul></div>
+      <div class="footer-col"><h5>Servicios</h5><ul><li><a href="servicios/estrategia-fiscal.html">Estrategia Fiscal</a></li><li><a href="servicios/comercio-exterior.html">Comercio Exterior</a></li><li><a href="servicios/derecho-laboral.html">Derecho Laboral</a></li><li><a href="servicios/auditoria-cumplimiento.html">Auditoría</a></li><li><a href="servicios/consultoria-contable.html">Consultoría Contable</a></li></ul></div>
+      <div class="footer-col"><h5>Oficinas</h5><ul><li>Monterrey, N.L.</li><li>Ciudad de México</li><li><a href="mailto:contacto@estrategialegal.mx">contacto@estrategialegal.mx</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Estrategia Legal. Todos los derechos reservados.</span><div><a href="#">Aviso de privacidad</a><a href="#">Términos</a></div></div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
